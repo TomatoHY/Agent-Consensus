@@ -1,0 +1,41 @@
+{
+  "agent": "openclaw",
+  "kind": "openclaw",
+  "returncode": 1,
+  "token_stats": {
+    "prompt_token_len": 274,
+    "stdout_token_len": 555,
+    "stderr_token_len": 855,
+    "aux_output_token_len": 1936,
+    "token_len": 3620,
+    "input_token_len": 274,
+    "output_token_len": 3346,
+    "token_source": "estimated"
+  },
+  "answer": "\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_chat: Registered feishu_chat, feishu_chat_members\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_user_message, feishu_im_user_fetch_resource, feishu_im_user_get_messages, feishu_im_user_get_thread_messages, feishu_im_user_search_messages\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_search: Registered feishu_search_doc_wiki\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_drive: Registered feishu_drive_file, feishu_doc_comments, feishu_doc_media\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_wiki: Registered feishu_wiki_space, feishu_wiki_space_node\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_sheets: Registered feishu_sheet\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_bot_image\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mRegistered all OAPI tools (calendar, task, bitable, search, drive, wiki, sheets, im)\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_doc: Registered feishu_fetch_doc, feishu_create_doc, feishu_update_doc\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth: Registered feishu_oauth tool\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth_batch_auth: Registered feishu_oauth_batch_auth tool\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_chat: Registered feishu_chat, feishu_chat_members\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_user_message, feishu_im_user_fetch_resource, feishu_im_user_get_messages, feishu_im_user_get_thread_messages, feishu_im_user_search_messages\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_search: Registered feishu_search_doc_wiki\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_drive: Registered feishu_drive_file, feishu_doc_comments, feishu_doc_media\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_wiki: Registered feishu_wiki_space, feishu_wiki_space_node\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_sheets: Registered feishu_sheet\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_bot_image\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mRegistered all OAPI tools (calendar, task, bitable, search, drive, wiki, sheets, im)\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_doc: Registered feishu_fetch_doc, feishu_create_doc, feishu_update_doc\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth: Registered feishu_oauth tool\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth_batch_auth: Registered feishu_oauth_batch_auth tool\u001b[39m",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {
+    "prompt_tokens": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_count": 8,
+    "provider_total_tokens": 0,
+    "total_tokens": 0,
+    "input_token_len": 0,
+    "output_token_len": 0,
+    "token_len": 0
+  },
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/reviews/openclaw/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/reviews/openclaw/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/reviews/openclaw/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/reviews/openclaw/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/reviews/openclaw/stage_output.json",
+    "transcript": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/reviews/openclaw/openclaw_transcript.json"
+  }
+}

@@ -1,0 +1,43 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python caches/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets/config
+.env
+.env.*
+
+# Heavy run artifacts.
+# Keep consensus_report.json, final_answer.json, final_result.json,
+# result.json, review_result.json, consensus_vote.json, and other compact
+# answer/report files under results/.
+results/**/*.log
+results/**/stdout.txt
+results/**/stderr.txt
+results/**/stage_output.json
+results/**/prompt.txt
+results/**/command.json
+results/**/openclaw_transcript.json
+results/**/openclaw_prompt.txt
+results/**/codex_final_message.txt
+results/**/trajectory/

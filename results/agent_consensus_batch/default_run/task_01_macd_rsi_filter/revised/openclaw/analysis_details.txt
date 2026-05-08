@@ -1,0 +1,9 @@
+Detailed Analysis Results
+============================================================
+
+300733:
+  MACD Golden Cross: ['2026-03-20']
+  RSI Bounce: ['2026-03-23']
+  Volume Spikes: 2 days
+  MA Cross: ['2026-03-23']
+

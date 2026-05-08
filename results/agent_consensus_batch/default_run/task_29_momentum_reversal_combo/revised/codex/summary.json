@@ -1,0 +1,32 @@
+{
+  "agent": "codex",
+  "kind": "codex",
+  "returncode": 0,
+  "token_stats": {
+    "prompt_token_len": 341,
+    "stdout_token_len": 122,
+    "stderr_token_len": 58,
+    "aux_output_token_len": 0,
+    "token_len": 3208,
+    "input_tokens": 3118,
+    "cached_input_tokens": 0,
+    "output_tokens": 90,
+    "input_token_len": 3118,
+    "output_token_len": 90,
+    "token_source": "reported"
+  },
+  "answer": "{\"type\":\"thread.started\",\"thread_id\":\"019d94b7-585b-7a72-a275-36d36a387c2e\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 1/5 (stream disconnected before completion: Transport error: network error: error decoding response body)\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"error\",\"message\":\"in-process app-server event stream lagged; dropped 2 events\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":3118,\"cached_input_tokens\":0,\"output_tokens\":90}}",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {},
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/revised/codex/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/revised/codex/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/revised/codex/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/revised/codex/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/revised/codex/stage_output.json",
+    "transcript": ""
+  }
+}

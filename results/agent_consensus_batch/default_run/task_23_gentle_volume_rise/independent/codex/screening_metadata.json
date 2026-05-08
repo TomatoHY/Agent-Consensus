@@ -1,0 +1,13 @@
+{
+  "screening_date": "2024-05-08",
+  "universe": "创业板(300开头)",
+  "method": {
+    "daily_return_rule": "前10个交易日每日涨幅在0.5%-4%之间且连续上涨",
+    "volume_regression": "使用 numpy.polyfit 对10日成交量做线性回归，要求 slope > 0 且 R^2 > 0.6",
+    "cumulative_return_rule": "10日累计涨幅在8%-20%之间",
+    "turnover_rule": "平均换手率在3%-8%之间"
+  },
+  "status": "no_data",
+  "error_type": "ConnectionError",
+  "error": "HTTPSConnectionPool(host='query.sse.com.cn', port=443): Max retries exceeded with url: /sseQuery/commonQuery.do?STOCK_TYPE=1&REG_PROVINCE=&CSRC_CODE=&STOCK_CODE=&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_GP_L&COMPANY_STATUS=2%2C4%2C5%2C7%2C8&type=inParams&isPagination=true&pageHelp.cacheSize=1&pageHelp.beginPage=1&pageHelp.pageSize=10000&pageHelp.pageNo=1&pageHelp.endPage=1 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x155066120>: Failed to resolve 'query.sse.com.cn' ([Errno 8] nodename nor servname provided, or not known)\"))"
+}

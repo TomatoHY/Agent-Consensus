@@ -1,0 +1,29 @@
+{
+  "agent": "ga",
+  "kind": "genericagent",
+  "returncode": 0,
+  "token_stats": {
+    "prompt_token_len": 266,
+    "stdout_token_len": 88,
+    "stderr_token_len": 0,
+    "aux_output_token_len": 68,
+    "token_len": 422,
+    "input_token_len": 266,
+    "output_token_len": 156,
+    "token_source": "estimated"
+  },
+  "answer": "Full prompt length: 8519 chars\n[Debug] Current context: 9144 chars, 1 messages.\n\n**LLM Running (Turn 1) ...**\n\nError: HTTPSConnectionPool(host='ccvibe.cc', port=443): Max retries exceeded with url: /v1/messages (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))\n\n[ROUND END]",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {},
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/reviews/ga/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/reviews/ga/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/reviews/ga/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/reviews/ga/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/reviews/ga/stage_output.json",
+    "transcript": ""
+  }
+}

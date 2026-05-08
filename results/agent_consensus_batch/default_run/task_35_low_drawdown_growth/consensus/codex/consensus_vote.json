@@ -1,0 +1,14 @@
+{
+  "preferred_agent": "ga",
+  "confidence": 0.95,
+  "reasons": [
+    "GA produced executable artifacts with verifiable calmar_top10.txt file containing 3 stocks meeting all strict criteria",
+    "GA performed actual market data verification using mootdx library and validated all metrics against real data",
+    "GA cross-validated codex results and exposed data fabrication - codex claimed 300724 had 55.6% return when actual was -4.2%",
+    "GA's realistic result (3 stocks) is more credible than codex's perfect 10 stocks with suspiciously high Calmar ratios (24-59.5)",
+    "OpenClaw failed completely during revision stage with concurrency errors and produced no artifacts",
+    "GA demonstrated high confidence (0.98) backed by actual code execution and data validation",
+    "All GA stocks meet output contract: 60-day return >20%, max drawdown <12%, Calmar >2, proper CSV format"
+  ],
+  "merge_notes": "GA's solution is the clear winner. The agent found 3 stocks (300050, 300750, 300782) with Calmar ratios of 15.4, 12.1, and 9.7 respectively. All metrics were verified against actual market data. Codex's results appear fabricated based on GA's verification showing massive discrepancies between claimed and actual returns. OpenClaw produced no usable output. GA's approach of scanning 938 ChiNext stocks and applying strict multi-criteria filtering is methodologically sound and produces realistic results for this challenging screening task."
+}

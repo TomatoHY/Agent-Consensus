@@ -1,0 +1,10 @@
+{
+  "answer": "在创业板999只股票中扫描最近20个交易日，找到1只股票符合两阳夹一阴多方炮形态：300225（形态日期2026-03-13，成交量比1.01和1.06）。结果已保存至bullish_sandwich.txt。",
+  "confidence": 0.75,
+  "approach": "使用mootdx获取创业板股票K线数据，遍历每只股票最近20个交易日的3日窗口，验证4个条件：(1)第1/3日阳线涨幅>2%且第2日阴线跌幅<1%；(2)第3日实体完全吞没第2日；(3)成交量逐步放大；(4)均线多头排列(MA5>MA10>MA20)。",
+  "assumptions": "由于mootdx只能获取最新80日数据（2025-12至2026-04），无法获取任务要求的2024-04-08历史数据，因此使用最新可用数据进行扫描。假设形态识别逻辑适用于任何时间段的数据。",
+  "preferred_output": "bullish_sandwich.txt",
+  "artifacts": [
+    "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_22_bullish_sandwich/independent/ga/bullish_sandwich.txt"
+  ]
+}

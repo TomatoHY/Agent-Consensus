@@ -1,0 +1,29 @@
+{
+  "agent": "claudecode",
+  "kind": "claude",
+  "returncode": 1,
+  "token_stats": {
+    "prompt_token_len": 244,
+    "stdout_token_len": 665,
+    "stderr_token_len": 0,
+    "aux_output_token_len": 0,
+    "token_len": 909,
+    "input_token_len": 244,
+    "output_token_len": 665,
+    "token_source": "estimated"
+  },
+  "answer": "{\"type\":\"system\",\"subtype\":\"init\",\"cwd\":\"/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/consensus/claudecode\",\"session_id\":\"a4784f79-1380-467d-a1d0-6db33f2304dc\",\"tools\":[\"Task\",\"AskUserQuestion\",\"Bash\",\"CronCreate\",\"CronDelete\",\"CronList\",\"Edit\",\"EnterPlanMode\",\"EnterWorktree\",\"ExitPlanMode\",\"ExitWorktree\",\"Glob\",\"Grep\",\"NotebookEdit\",\"Read\",\"Skill\",\"TaskOutput\",\"TaskStop\",\"TodoWrite\",\"WebFetch\",\"WebSearch\",\"Write\"],\"mcp_servers\":[],\"model\":\"claude-sonnet-4-6\",\"permissionMode\":\"bypassPermissions\",\"slash_commands\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"loop\",\"claude-api\",\"compact\",\"context\",\"cost\",\"heapdump\",\"init\",\"pr-comments\",\"release-notes\",\"review\",\"security-review\",\"insights\"],\"apiKeySource\":\"none\",\"claude_code_version\":\"2.1.90\",\"output_style\":\"default\",\"agents\":[\"general-purpose\",\"statusline-setup\",\"Explore\",\"Plan\"],\"skills\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"loop\",\"claude-api\"],\"plugins\":[],\"uuid\":\"fd2c7695-a9d1-4a56-92a2-00fe8d159e10\",\"fast_mode_state\":\"off\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"583e955d-e705-4cd1-9b9d-d0ed82a3301b\",\"container\":null,\"model\":\"<synthetic>\",\"role\":\"assistant\",\"stop_reason\":\"stop_sequence\",\"stop_sequence\":\"\",\"type\":\"message\",\"usage\":{\"input_tokens\":0,\"output_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":null,\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":null,\"iterations\":null,\"speed\":null},\"content\":[{\"type\":\"text\",\"text\":\"Failed to authenticate. API Error: 403 No active subscription found for this group\"}],\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"a4784f79-1380-467d-a1d0-6db33f2304dc\",\"uuid\":\"6676b8c7-7a33-4a79-a4f1-13c9524b889c\",\"error\":\"authentication_failed\"}\n{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":true,\"duration_ms\":760,\"duration_api_ms\":0,\"num_turns\":1,\"result\":\"Failed to authenticate. API Error: 403 No active subscription found for this group\",\"stop_reason\":\"stop_sequence\",\"session_id\":\"a4784f79-1380-467d-a1d0-6db33f2304dc\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"fast_mode_state\":\"off\",\"uuid\":\"a00cba1b-55fa-49e2-9080-60cb7d047a4f\"}",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {},
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/consensus/claudecode/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/consensus/claudecode/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/consensus/claudecode/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/consensus/claudecode/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/consensus/claudecode/stage_output.json",
+    "transcript": ""
+  }
+}

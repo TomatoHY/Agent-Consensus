@@ -1,0 +1,32 @@
+{
+  "agent": "codex",
+  "kind": "codex",
+  "returncode": 0,
+  "token_stats": {
+    "prompt_token_len": 184,
+    "stdout_token_len": 50,
+    "stderr_token_len": 57,
+    "aux_output_token_len": 0,
+    "token_len": 3194,
+    "input_tokens": 3118,
+    "cached_input_tokens": 0,
+    "output_tokens": 76,
+    "input_token_len": 3118,
+    "output_token_len": 76,
+    "token_source": "reported"
+  },
+  "answer": "{\"type\":\"thread.started\",\"thread_id\":\"019d94cb-31b8-7ab3-8200-ecf6bb92d933\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":3118,\"cached_input_tokens\":0,\"output_tokens\":76}}",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {},
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_30_composite_scoring/independent/codex/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_30_composite_scoring/independent/codex/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_30_composite_scoring/independent/codex/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_30_composite_scoring/independent/codex/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_30_composite_scoring/independent/codex/stage_output.json",
+    "transcript": ""
+  }
+}

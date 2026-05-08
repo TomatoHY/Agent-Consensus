@@ -1,0 +1,55 @@
+{
+  "analysis_date": "2024-05-22",
+  "top3_sectors": {
+    "新材料": 1635.4190536306387,
+    "软件服务": 1524.2647581419947,
+    "医药生物": 834.9961186540397
+  },
+  "total_candidates": 4,
+  "leaders": [
+    {
+      "code": "300699",
+      "sector": "新材料",
+      "rs": 2.0264925044964164,
+      "return": 3314.164453893112,
+      "market_cap": 832946666.3577008,
+      "turnover": 16.375,
+      "rsi": 100.0,
+      "macd_golden": true,
+      "is_60day_high": true
+    },
+    {
+      "code": "300496",
+      "sector": "软件服务",
+      "rs": 1.7786722318378112,
+      "return": 2711.167399276143,
+      "market_cap": 669893336.8306733,
+      "turnover": 16.0,
+      "rsi": 100.0,
+      "macd_golden": true,
+      "is_60day_high": true
+    },
+    {
+      "code": "300598",
+      "sector": "软件服务",
+      "rs": 1.875705806691447,
+      "return": 2859.0722577820734,
+      "market_cap": 246516765.29934472,
+      "turnover": 16.25,
+      "rsi": 100.0,
+      "macd_golden": true,
+      "is_60day_high": true
+    },
+    {
+      "code": "300595",
+      "sector": "医药生物",
+      "rs": 3.116110872606976,
+      "return": 2601.9404839224776,
+      "market_cap": 373320740.17648655,
+      "turnover": 15.875,
+      "rsi": 100.0,
+      "macd_golden": true,
+      "is_60day_high": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "agent": "codex",
+  "kind": "codex",
+  "returncode": 1,
+  "token_stats": {
+    "prompt_token_len": 246,
+    "stdout_token_len": 285,
+    "stderr_token_len": 61,
+    "aux_output_token_len": 0,
+    "token_len": 592,
+    "input_token_len": 246,
+    "output_token_len": 346,
+    "token_source": "estimated"
+  },
+  "answer": "{\"type\":\"thread.started\",\"thread_id\":\"019d9475-86f5-7ce3-a8fe-eb5d517a4138\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 1/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 2/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 3/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 4/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 5/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses)\"}\n{\"type\":\"turn.failed\",\"error\":{\"message\":\"stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses)\"}}",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {},
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_28_volatility_compression_explosion/consensus/codex/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_28_volatility_compression_explosion/consensus/codex/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_28_volatility_compression_explosion/consensus/codex/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_28_volatility_compression_explosion/consensus/codex/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_28_volatility_compression_explosion/consensus/codex/stage_output.json",
+    "transcript": ""
+  }
+}

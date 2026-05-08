@@ -1,0 +1,111 @@
+[
+  {
+    "agent": "ga",
+    "answer": "Full prompt length: 8174 chars\n[Debug] Current context: 8797 chars, 1 messages.\n\n**LLM Running (Turn 1) ...**\n\nError: HTTPSConnectionPool(host='ccvibe.cc', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1059d9550>: Failed to resolve 'ccvibe.cc' ([Errno 8] nodename nor servname provided, or not known)\"))\n\n[ROUND END]",
+    "confidence": 0.0,
+    "approach": "",
+    "artifacts": [],
+    "assumptions": [],
+    "workspace_files": [
+      "command.json",
+      "prompt.txt",
+      "stage_output.json",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "task.md",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "result_files": [
+      "command.json",
+      "prompt.txt",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "code_files": [],
+    "contract_hits": [],
+    "output_contract": [
+      "golden_valley.txt"
+    ],
+    "result_preview": "{\n  \"agent\": \"ga\",\n  \"kind\": \"genericagent\",\n  \"command\": [\n    \"/opt/anaconda3/bin/python3\",\n    \"/Users/tomato/Documents/potato/project/GenericAgent/agentmain.py\",\n    \"--task\",\n    \"consensus_ga_ga_61048\",\n    \"--llm_no\",\n    \"0\"\n  ],\n  \"returncode\": 0,\n  \"token_stats\": {\n    \"prompt_token_len\": 180,\n    \"stdout_token_len\": 102,\n    \"stderr_token_len\": 0,\n    \"aux_output_token_len\": 82,\n    \"token_len\": 364,\n    \"input_token_len\": 180,\n    \"output_token_len\": 184,\n    \"token_source\": \"estimated\"\n  }\n}\n",
+    "code_preview": ""
+  },
+  {
+    "agent": "claudecode",
+    "answer": "{\"type\":\"system\",\"subtype\":\"init\",\"cwd\":\"/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_25_golden_valley/independent/claudecode\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"tools\":[\"Task\",\"AskUserQuestion\",\"Bash\",\"CronCreate\",\"CronDelete\",\"CronList\",\"Edit\",\"EnterPlanMode\",\"EnterWorktree\",\"ExitPlanMode\",\"ExitWorktree\",\"Glob\",\"Grep\",\"NotebookEdit\",\"Read\",\"Skill\",\"TaskOutput\",\"TaskStop\",\"TodoWrite\",\"WebFetch\",\"WebSearch\",\"Write\"],\"mcp_servers\":[],\"model\":\"claude-sonnet-4-6\",\"permissionMode\":\"bypassPermissions\",\"slash_commands\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"loop\",\"claude-api\",\"compact\",\"context\",\"cost\",\"heapdump\",\"init\",\"pr-comments\",\"release-notes\",\"review\",\"security-review\",\"insights\"],\"apiKeySource\":\"none\",\"claude_code_version\":\"2.1.90\",\"output_style\":\"default\",\"agents\":[\"general-purpose\",\"statusline-setup\",\"Explore\",\"Plan\"],\"skills\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"loop\",\"claude-api\"],\"plugins\":[],\"uuid\":\"efc9db0a-c6ed-4c24-b601-007e8b3672b5\",\"fast_mode_state\":\"off\"}\n{\"type\":\"system\",\"subtype\":\"api_retry\",\"attempt\":1,\"max_retries\":10,\"retry_delay_ms\":506.7208733941606,\"error_status\":null,\"error\":\"unknown\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"uuid\":\"d2b3a377-6e55-4e6f-924d-f0a455313a4f\"}\n{\"type\":\"system\",\"subtype\":\"api_retry\",\"attempt\":2,\"max_retries\":10,\"retry_delay_ms\":1112.793294404379,\"error_status\":null,\"error\":\"unknown\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"uuid\":\"f8eb228b-26c5-4c11-9532-613d74ec4e7e\"}\n{\"type\":\"system\",\"subtype\":\"api_retry\",\"attempt\":3,\"max_retries\":10,\"retry_delay_ms\":2271.2396784096304,\"error_status\":null,\"error\":\"unknown\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"uuid\":\"6cfeda8b-c41b-4f3e-a742-ae908ee9ca7c\"}\n{\"type\":\"system\",\"subtype\":\"api_retry\",\"attempt\":4,\"max_retries\":10,\"retry_delay_ms\":4795.6954470458795,\"error_status\":null,\"error\":\"unknown\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"uuid\":\"8877b9de-ae90-4809-a0c3-0c0e6b76f2af\"}\n{\"type\":\"system\",\"subtype\":\"api_retry\",\"attempt\":5,\"max_retries\":10,\"retry_delay_ms\":8030.78507083081,\"error_status\":null,\"error\":\"unknown\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"uuid\":\"29941af2-a255-40b3-8b9d-b557cfab98f9\"}\n{\"type\":\"system\",\"subtype\":\"api_retry\",\"attempt\":6,\"max_retries\":10,\"retry_delay_ms\":18102.549169018035,\"error_status\":null,\"error\":\"unknown\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"uuid\":\"aba8ceb2-5181-4019-ab35-b0842d1019ed\"}\n{\"type\":\"system\",\"subtype\":\"api_retry\",\"attempt\":7,\"max_retries\":10,\"retry_delay_ms\":33330.34167553097,\"error_status\":null,\"error\":\"unknown\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"uuid\":\"258ea869-4e0f-45b4-9de8-e1e9d9ce7f24\"}\n{\"type\":\"system\",\"subtype\":\"api_retry\",\"attempt\":8,\"max_retries\":10,\"retry_delay_ms\":38803.40038455121,\"error_status\":null,\"error\":\"unknown\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"uuid\":\"7ce70fe6-0b4b-494f-88d5-33577722174b\"}\n{\"type\":\"system\",\"subtype\":\"api_retry\",\"attempt\":9,\"max_retries\":10,\"retry_delay_ms\":36341.98286765207,\"error_status\":null,\"error\":\"unknown\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"uuid\":\"a70e78ab-9968-4a61-9c81-f2271a5b0b65\"}\n{\"type\":\"system\",\"subtype\":\"api_retry\",\"attempt\":10,\"max_retries\":10,\"retry_delay_ms\":32226.652368197774,\"error_status\":null,\"error\":\"unknown\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"uuid\":\"819287b2-4ceb-4278-9e92-a7577922d15b\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"42f35b62-d944-4906-987e-b897fc03e0ab\",\"container\":null,\"model\":\"<synthetic>\",\"role\":\"assistant\",\"stop_reason\":\"stop_sequence\",\"stop_sequence\":\"\",\"type\":\"message\",\"usage\":{\"input_tokens\":0,\"output_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":null,\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":null,\"iterations\":null,\"speed\":null},\"content\":[{\"type\":\"text\",\"text\":\"API Error: Unable to connect to API (ENOTFOUND)\"}],\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"uuid\":\"dd429192-64e6-4919-90da-88c1fba46f13\",\"error\":\"unknown\"}\n{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":true,\"duration_ms\":175649,\"duration_api_ms\":0,\"num_turns\":1,\"result\":\"API Error: Unable to connect to API (ENOTFOUND)\",\"stop_reason\":\"stop_sequence\",\"session_id\":\"e15bbd7f-3865-4b0e-9076-adedf15b2396\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"fast_mode_state\":\"off\",\"uuid\":\"af797051-d708-4d16-a0eb-41bd897b0a00\"}",
+    "confidence": 0.0,
+    "approach": "",
+    "artifacts": [],
+    "assumptions": [],
+    "workspace_files": [
+      "command.json",
+      "prompt.txt",
+      "stage_output.json",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "task.md",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "result_files": [
+      "command.json",
+      "prompt.txt",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "code_files": [],
+    "contract_hits": [],
+    "output_contract": [
+      "golden_valley.txt"
+    ],
+    "result_preview": "{\n  \"agent\": \"claudecode\",\n  \"kind\": \"claude\",\n  \"command\": [\n    \"claude\",\n    \"-p\",\n    \"--permission-mode\",\n    \"bypassPermissions\",\n    \"--verbose\",\n    \"--model\",\n    \"claude-sonnet-4-6\",\n    \"--output-format\",\n    \"stream-json\",\n    \"--include-partial-messages\",\n    \"--add-dir\",\n    \"/Users/tomato/Documents/potato/project/YFD\",\n    \"/Users/tomato/Documents/potato/project/GenericAgent\",\n    \"-\"\n  ],\n  \"returncode\": 1,\n  \"token_stats\": {\n    \"prompt_token_len\": 186,\n    \"stdout_token_len\": 1243,\n    \"stderr_token_len\": 0,\n    \"aux_output_token_len\": 0,\n    \"token_len\": 1429,\n    \"input_tok",
+    "code_preview": ""
+  },
+  {
+    "agent": "openclaw",
+    "answer": "\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_chat: Registered feishu_chat, feishu_chat_members\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_user_message, feishu_im_user_fetch_resource, feishu_im_user_get_messages, feishu_im_user_get_thread_messages, feishu_im_user_search_messages\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_search: Registered feishu_search_doc_wiki\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_drive: Registered feishu_drive_file, feishu_doc_comments, feishu_doc_media\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_wiki: Registered feishu_wiki_space, feishu_wiki_space_node\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_sheets: Registered feishu_sheet\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_bot_image\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mRegistered all OAPI tools (calendar, task, bitable, search, drive, wiki, sheets, im)\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_doc: Registered feishu_fetch_doc, feishu_create_doc, feishu_update_doc\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth: Registered feishu_oauth tool\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth_batch_auth: Registered feishu_oauth_batch_auth tool\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_chat: Registered feishu_chat, feishu_chat_members\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_user_message, feishu_im_user_fetch_resource, feishu_im_user_get_messages, feishu_im_user_get_thread_messages, feishu_im_user_search_messages\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_search: Registered feishu_search_doc_wiki\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_drive: Registered feishu_drive_file, feishu_doc_comments, feishu_doc_media\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_wiki: Registered feishu_wiki_space, feishu_wiki_space_node\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_sheets: Registered feishu_sheet\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_bot_image\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mRegistered all OAPI tools (calendar, task, bitable, search, drive, wiki, sheets, im)\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_doc: Registered feishu_fetch_doc, feishu_create_doc, feishu_update_doc\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth: Registered feishu_oauth tool\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth_batch_auth: Registered feishu_oauth_batch_auth tool\u001b[39m",
+    "confidence": 0.0,
+    "approach": "",
+    "artifacts": [],
+    "assumptions": [],
+    "workspace_files": [
+      "command.json",
+      "openclaw_prompt.txt",
+      "openclaw_transcript.json",
+      "prompt.txt",
+      "stage_output.json",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "task.md",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "result_files": [
+      "command.json",
+      "openclaw_prompt.txt",
+      "openclaw_transcript.json",
+      "prompt.txt",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "code_files": [],
+    "contract_hits": [],
+    "output_contract": [
+      "golden_valley.txt"
+    ],
+    "result_preview": "{\n  \"agent\": \"openclaw\",\n  \"kind\": \"openclaw\",\n  \"command\": [\n    \"openclaw\",\n    \"agent\",\n    \"--local\",\n    \"--agent\",\n    \"main\",\n    \"--json\",\n    \"--timeout\",\n    \"1200\",\n    \"--message\",\n    \"Read the full task prompt from /Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_25_golden_valley/independent/openclaw/openclaw_prompt.txt. Follow it exactly. Treat that file as the full user message. Return your final answer in the required format from that prompt.\"\n  ],\n  \"returncode\": 1,\n  \"token_stats\": {\n    \"prompt_token_len\": 184,\n  ",
+    "code_preview": ""
+  }
+]

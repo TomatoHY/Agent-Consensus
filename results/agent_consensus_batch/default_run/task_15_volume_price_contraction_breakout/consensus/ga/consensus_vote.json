@@ -1,0 +1,12 @@
+{
+  "preferred_agent": "openclaw",
+  "confidence": 0.75,
+  "reasons": [
+    "唯一提供可执行代码工件（analyze_pattern.py，5922字符），包含完整的形态识别逻辑：get_chinext_stocks()获取创业板股票、analyze_stock()实现滑动窗口搜索缩量期、验证价格波动、放量突破、价格突破和回调检查",
+    "代码使用mootdx库获取真实行情数据，方法可验证和复现，符合'executable artifacts'要求",
+    "虽然4个agent的contraction_breakout.txt结果都是'无符合条件的股票'，但openclaw提供了达成该结论的完整计算过程",
+    "claudecode的输出格式最规范（有CSV表头+注释），但缺少代码工件；codex提到938只股票扫描但无代码；ga无方法描述",
+    "在结果一致的情况下，优先选择提供可验证方法的方案"
+  ],
+  "merge_notes": "所有agent修订后均得出'无符合条件的股票'结论。openclaw的analyze_pattern.py代码可作为标准实现参考，claudecode的输出格式（含CSV表头）可作为格式规范。建议最终输出采用claudecode的格式+openclaw的代码工件。"
+}

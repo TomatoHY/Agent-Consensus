@@ -1,0 +1,17 @@
+{
+  "data_source": "akshare",
+  "stock_list_status": "failed: ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'query.sse.com.cn\\', port=443): Max retries exceeded with url: /sseQuery/commonQuery.do?STOCK_TYPE=1&REG_PROVINCE=&CSRC_CODE=&STOCK_CODE=&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_GP_L&COMPANY_STATUS=2%2C4%2C5%2C7%2C8&type=inParams&isPagination=true&pageHelp.cacheSize=1&pageHelp.beginPage=1&pageHelp.pageSize=10000&pageHelp.pageNo=1&pageHelp.endPage=1 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x14e8a6120>: Failed to resolve \\'query.sse.com.cn\\' ([Errno 8] nodename nor servname provided, or not known)\"))'))",
+  "screening_logic": [
+    "计算60日均量",
+    "最近30日内寻找连续>=3天地量期",
+    "地量期振幅=(最高价-最低价)/最低价 < 3%",
+    "地量期结束后10日内寻找单日成交量 > 60日均量3倍",
+    "天量日需收阳、相对前收盘涨幅 > 5%",
+    "天量日收盘价需突破此前近30日最高价"
+  ],
+  "environment_limits": [
+    "在线股票列表拉取失败，无法获得创业板全量代码",
+    "当前环境无法解析 akshare 依赖的行情域名"
+  ],
+  "result": "无符合条件的股票"
+}

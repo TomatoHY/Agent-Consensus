@@ -1,0 +1,3 @@
+{
+  "raw_output": "{\"type\":\"thread.started\",\"thread_id\":\"019d9460-7d8a-7c61-aead-b6b53847cb28\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":3118,\"cached_input_tokens\":0,\"output_tokens\":66}}"
+}

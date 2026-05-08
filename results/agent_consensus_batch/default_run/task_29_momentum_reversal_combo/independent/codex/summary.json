@@ -1,0 +1,29 @@
+{
+  "agent": "codex",
+  "kind": "codex",
+  "returncode": 1,
+  "token_stats": {
+    "prompt_token_len": 187,
+    "stdout_token_len": 285,
+    "stderr_token_len": 59,
+    "aux_output_token_len": 0,
+    "token_len": 531,
+    "input_token_len": 187,
+    "output_token_len": 344,
+    "token_source": "estimated"
+  },
+  "answer": "{\"type\":\"thread.started\",\"thread_id\":\"019d947e-1ba4-7222-8647-25b87c2ae9c4\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 1/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 2/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 3/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 4/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 5/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses)\"}\n{\"type\":\"turn.failed\",\"error\":{\"message\":\"stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses)\"}}",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {},
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/independent/codex/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/independent/codex/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/independent/codex/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/independent/codex/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_29_momentum_reversal_combo/independent/codex/stage_output.json",
+    "transcript": ""
+  }
+}

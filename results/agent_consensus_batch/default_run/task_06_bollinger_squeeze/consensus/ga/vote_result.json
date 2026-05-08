@@ -1,0 +1,15 @@
+{
+  "preferred_agent": "claudecode",
+  "confidence": 0.95,
+  "reasons": [
+    "完全遵守规则：只使用mootdx获取数据，未使用被禁止的akshare",
+    "有完整可执行代码artifact：bollinger_squeeze_v2.py包含完整实现",
+    "计算逻辑正确：20日SMA中轨，±2标准差上下轨，宽度=(上-下)/中",
+    "处理全量数据：遍历所有创业板股票，非样本推算",
+    "正确处理历史日期：获取2024-08-30之前的数据进行计算",
+    "满足输出contract：生成bollinger_count.txt，格式正确",
+    "openclaw虽有代码但违反规则使用akshare且仅处理50只样本推算",
+    "ga和codex无代码文件，无法验证逻辑和复现结果"
+  ],
+  "merge_notes": "claudecode方案完整且符合所有要求。结果显示2只股票(0.15%)符合盘整条件，这个数值合理（布林带宽度<5%是较严格的盘整标准）。openclaw的209只(15%)是基于50只样本推算的，且违规使用akshare。ga的6只和codex的251只无代码支撑，无法验证。推荐采用claudecode的实现和结果。"
+}

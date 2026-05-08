@@ -1,0 +1,23 @@
+{
+  "decision": "no_matches",
+  "basis": {
+    "primary_peer": "ga",
+    "peer_result": "无符合条件的股票",
+    "peer_evidence": [
+      "GA summary shows a direct scan over 938 创业板 stocks.",
+      "GA transcript explicitly describes 60日均量 calculation, sliding-window contraction search, breakout checks within 5 trading days, price breakout validation, and >5% drawdown screening.",
+      "GA artifact `contraction_breakout.txt` contains `无符合条件的股票`."
+    ],
+    "excluded_conflicts": [
+      "claudecode reported positive matches but explicitly stated the result used mock data due to unavailable real market data."
+    ]
+  },
+  "revision_notes": [
+    "Replaced the prior artifact-consensus rationale with the strongest task-faithful peer computation available in the workspace.",
+    "Kept the final answer as `无符合条件的股票`, but on a stronger evidentiary basis aligned with the review."
+  ],
+  "artifacts": [
+    "contraction_breakout.txt",
+    "revision_summary.json"
+  ]
+}

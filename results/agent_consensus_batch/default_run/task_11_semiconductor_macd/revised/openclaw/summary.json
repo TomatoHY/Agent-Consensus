@@ -1,0 +1,41 @@
+{
+  "agent": "openclaw",
+  "kind": "openclaw",
+  "returncode": 0,
+  "token_stats": {
+    "prompt_token_len": 340,
+    "stdout_token_len": 3921,
+    "stderr_token_len": 105,
+    "aux_output_token_len": 557,
+    "token_len": 4923,
+    "input_token_len": 340,
+    "output_token_len": 4583,
+    "token_source": "estimated"
+  },
+  "answer": "",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {
+    "prompt_tokens": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_count": 1,
+    "provider_total_tokens": 0,
+    "total_tokens": 0,
+    "input_token_len": 0,
+    "output_token_len": 0,
+    "token_len": 0
+  },
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_11_semiconductor_macd/revised/openclaw/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_11_semiconductor_macd/revised/openclaw/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_11_semiconductor_macd/revised/openclaw/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_11_semiconductor_macd/revised/openclaw/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_11_semiconductor_macd/revised/openclaw/stage_output.json",
+    "transcript": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_11_semiconductor_macd/revised/openclaw/openclaw_transcript.json"
+  }
+}

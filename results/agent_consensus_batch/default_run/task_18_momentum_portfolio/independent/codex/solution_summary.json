@@ -1,0 +1,17 @@
+{
+  "task_id": "task_18_momentum_portfolio",
+  "status": "blocked_by_missing_historical_market_data",
+  "required_cutoff_date": "2024-10-15",
+  "available_local_market_data": [
+    "/Users/tomato/创业板K线数据_20260101-20260331.csv",
+    "/Users/tomato/创业板K线数据_20260304-20260331.csv",
+    "/Users/tomato/创业板指数399006_20260217-20260331.csv",
+    "/Users/tomato/创业板指数_20260217-20260331.csv"
+  ],
+  "failed_data_sources": [
+    "akshare: DNS resolution / network failure",
+    "baostock: network receive error",
+    "mootdx: socket access blocked with PermissionError"
+  ],
+  "result_file": "portfolio_analysis.txt"
+}

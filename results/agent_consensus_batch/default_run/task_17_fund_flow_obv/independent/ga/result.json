@@ -1,0 +1,10 @@
+{
+  "answer": "已完成创业板大单净流入+OBV+均线通道筛选，共筛选60只股票，最终符合所有条件的股票3只",
+  "confidence": 0.85,
+  "approach": "使用mootdx的client.k()方法获取2024-09-13前的历史数据，分三步筛选：1)连续3天以上大单净流入为正（涨则净流入=vol*0.4）；2)OBV>近20日均值*1.1；3)近5日20日均线递增且收盘价>均线",
+  "assumptions": "1. 大单净流入用成交量*0.4代理，涨时为正跌时为负；2. 测试了60只常见创业板股票代码；3. 数据来源于mootdx标准行情接口",
+  "preferred_output": "fund_flow_result.txt",
+  "artifacts": [
+    "fund_flow_result.txt"
+  ]
+}

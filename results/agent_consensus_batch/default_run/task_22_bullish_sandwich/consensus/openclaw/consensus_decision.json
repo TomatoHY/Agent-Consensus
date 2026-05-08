@@ -1,0 +1,13 @@
+{
+  "preferred_agent": "ga",
+  "confidence": 0.85,
+  "reasons": [
+    "Three out of four agents (ga, codex, openclaw) independently arrived at the same conclusion: no stocks match the pattern in the specified timeframe. This strong consensus (75%) suggests the 'no match' result is correct.",
+    "The claudecode agent found one stock (300225 on 2024-03-13) but this is an outlier result. The volume ratios reported (1.01, 1.06) are barely above the threshold of 1.0, suggesting marginal compliance that other agents may have filtered out with stricter validation.",
+    "The ga agent explicitly corrected a data source error (mootdx → akshare) and time range error (2026 → 2024) during revision, demonstrating thorough debugging. Their revised solution scanned 938 ChiNext stocks with proper historical data.",
+    "All agents implemented the four required conditions correctly: (1) bullish/bearish candle identification, (2) engulfing pattern verification, (3) progressive volume expansion, and (4) moving average trend validation. The difference in results likely stems from edge case handling or data quality issues.",
+    "The task requires very strict conditions to be met simultaneously. Given the specific timeframe (20 trading days before 2024-04-08) and the stringent criteria (涨幅>2%, 跌幅<1%, complete engulfing, volume expansion, MA alignment), finding zero matches is plausible and more conservative than accepting a marginal case.",
+    "The ga agent's confidence score of 0.95 is the highest among all agents, and they explicitly validated their result against peer findings, noting consistency with the majority."
+  ],
+  "merge_notes": "Consensus: No stocks in the ChiNext board exhibited the 'bullish sandwich' (两阳夹一阴) pattern during the 20 trading days before 2024-04-08 when all four strict conditions are applied. The claudecode outlier (300225) represents a marginal case with minimal volume expansion that does not meet the spirit of the pattern requirements. The preferred output is 'bullish_sandwich.txt' containing '无符合条件的股票' as produced by ga, codex, and openclaw agents."
+}

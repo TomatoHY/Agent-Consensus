@@ -1,0 +1,29 @@
+{
+  "agent": "ga",
+  "kind": "genericagent",
+  "returncode": 0,
+  "token_stats": {
+    "prompt_token_len": 228,
+    "stdout_token_len": 54,
+    "stderr_token_len": 0,
+    "aux_output_token_len": 33,
+    "token_len": 315,
+    "input_token_len": 228,
+    "output_token_len": 87,
+    "token_source": "estimated"
+  },
+  "answer": "Full prompt length: 8366 chars\n[Debug] Current context: 8990 chars, 1 messages.\n\n**LLM Running (Turn 1) ...**\n\nError: HTTPSConnectionPool(host='ccvibe.cc', port=443): Read timed out. (read timeout=5)\n\n[ROUND END]",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {},
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_21_morning_star/consensus/ga/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_21_morning_star/consensus/ga/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_21_morning_star/consensus/ga/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_21_morning_star/consensus/ga/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_21_morning_star/consensus/ga/stage_output.json",
+    "transcript": ""
+  }
+}

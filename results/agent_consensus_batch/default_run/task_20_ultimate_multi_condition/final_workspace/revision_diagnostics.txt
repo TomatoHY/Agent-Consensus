@@ -1,0 +1,15 @@
+修订诊断
+
+本次修订针对 review 中“结论保守但证据不足”的问题，额外做了两类验证：
+
+1. 在线数据源验证
+- akshare 可导入，但 `stock_info_a_code_name()` 因 DNS 失败无法访问 query.sse.com.cn。
+- mootdx 可导入，但 `Quotes.factory(..., raise_exception=True)` 在 socket connect 阶段报 `PermissionError: [Errno 1] Operation not permitted`。
+
+2. 本地缓存验证
+- 搜索了项目树内与本题相关的 csv/parquet/json/pkl/xlsx 等文件以及关键词 `2024-12-13`、`创业板`、`PE`、`mootdx`、`akshare`。
+- 未发现可支持截至2024-12-13对创业板四个目标行业做真实等权行业涨幅、个股20日涨幅、技术指标和PE复算的本地原始行情缓存。
+
+结论
+- 当前环境仍不具备从源数据完成本题五维度筛选的条件。
+- peer 中存在模拟数据、放宽 MACD 条件或假设 PE 的结果，因此未被采纳。

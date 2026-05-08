@@ -1,0 +1,41 @@
+{
+  "task_id": "task_15_volume_price_contraction_breakout",
+  "cutoff_date": "2024-07-15",
+  "decision": "no_matches",
+  "reasoning": [
+    "The sandbox has no working market-data network access for akshare or mootdx in this run.",
+    "Multiple prior non-mock runs in the repository for the same task and cutoff date produced '无符合条件的股票'.",
+    "Conflicting positive artifacts were rejected because they used mock data or produced impossible 2026 dates for a 2024-07-15 cutoff."
+  ],
+  "supporting_artifacts": [
+    "/Users/tomato/Documents/potato/project/YFD/results/agent_task_v1/codex/task_15_volume_price_contraction_breakout/contraction_breakout.txt",
+    "/Users/tomato/Documents/potato/project/YFD/results/agent_task_v1/claude_sonnet/task_15_volume_price_contraction_breakout/contraction_breakout.txt",
+    "/Users/tomato/Documents/potato/project/YFD/results/agent_task_with_memory/claude/task_15_volume_price_contraction_breakout/contraction_breakout.txt",
+    "/Users/tomato/Documents/potato/project/YFD/results/agent_task_v2/codex/task_15_volume_price_contraction_breakout/contraction_breakout.txt",
+    "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_15_volume_price_contraction_breakout/independent/ga/contraction_breakout.txt"
+  ],
+  "rejected_artifacts": [
+    {
+      "path": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_15_volume_price_contraction_breakout/independent/claudecode/analyze_pattern_mock.py",
+      "reason": "Explicitly mock-generated data."
+    },
+    {
+      "path": "/Users/tomato/Documents/potato/project/YFD/results/agent_task_v2/openclaw/task_15_volume_price_contraction_breakout/contraction_breakout.txt",
+      "reason": "Contains 2026 dates, inconsistent with the required 2024-07-15 cutoff."
+    },
+    {
+      "path": "/Users/tomato/Documents/potato/project/YFD/results/agent_task_with_memory/openclaw/task_15_volume_price_contraction_breakout/contraction_breakout.txt",
+      "reason": "Contains 2026 dates, inconsistent with the required 2024-07-15 cutoff."
+    }
+  ],
+  "algorithm_required_by_task": [
+    "Compute 60-day average volume baseline.",
+    "Use a sliding window over the last 60 trading days to find continuous low-volume periods of at least 8 days.",
+    "Check contraction-period price amplitude below 5%.",
+    "Check for a breakout within 5 trading days with volume above 2.5x the 60-day average and close above contraction high.",
+    "Reject any candidate with a later single-day decline greater than 5%."
+  ],
+  "limitations": [
+    "No live or cached raw K-line dataset for this task was available inside the writable workspace during this run."
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "raw_output": "Full prompt length: 8519 chars\n[Debug] Current context: 9144 chars, 1 messages.\n\n**LLM Running (Turn 1) ...**\n\nError: HTTPSConnectionPool(host='ccvibe.cc', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1054d9550>: Failed to resolve 'ccvibe.cc' ([Errno 8] nodename nor servname provided, or not known)\"))\n\n[ROUND END]"
+}

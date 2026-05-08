@@ -1,0 +1,29 @@
+{
+  "agent": "ga",
+  "kind": "genericagent",
+  "returncode": 0,
+  "token_stats": {
+    "prompt_token_len": 185,
+    "stdout_token_len": 50,
+    "stderr_token_len": 0,
+    "aux_output_token_len": 30,
+    "token_len": 265,
+    "input_token_len": 185,
+    "output_token_len": 80,
+    "token_source": "estimated"
+  },
+  "answer": "Full prompt length: 8194 chars\n[Debug] Current context: 8817 chars, 1 messages.\n\n**LLM Running (Turn 1) ...**\n\nError: 403 Client Error: Forbidden for url: https://ccvibe.cc/v1/messages\n\n[ROUND END]",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {},
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_09_price_volume_divergence/independent/ga/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_09_price_volume_divergence/independent/ga/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_09_price_volume_divergence/independent/ga/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_09_price_volume_divergence/independent/ga/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_09_price_volume_divergence/independent/ga/stage_output.json",
+    "transcript": ""
+  }
+}

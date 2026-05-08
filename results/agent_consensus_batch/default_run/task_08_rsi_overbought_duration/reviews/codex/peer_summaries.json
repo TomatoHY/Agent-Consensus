@@ -1,0 +1,130 @@
+[
+  {
+    "agent": "ga",
+    "answer": "Full prompt length: 8194 chars\n[Debug] Current context: 8817 chars, 1 messages.\n\n**LLM Running (Turn 1) ...**\n\nError: HTTPSConnectionPool(host='ccvibe.cc', port=443): Read timed out. (read timeout=5)\n\n[ROUND END]",
+    "confidence": 0.0,
+    "approach": "",
+    "artifacts": [],
+    "assumptions": [],
+    "workspace_files": [
+      "command.json",
+      "prompt.txt",
+      "stage_output.json",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "task.md",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "result_files": [
+      "command.json",
+      "prompt.txt",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "code_files": [],
+    "contract_hits": [],
+    "output_contract": [
+      "rsi_overbought_top3.txt"
+    ],
+    "result_preview": "{\n  \"agent\": \"ga\",\n  \"kind\": \"genericagent\",\n  \"command\": [\n    \"/opt/anaconda3/bin/python3\",\n    \"/Users/tomato/Documents/potato/project/GenericAgent/agentmain.py\",\n    \"--task\",\n    \"consensus_ga_ga_99812\",\n    \"--llm_no\",\n    \"0\"\n  ],\n  \"returncode\": 0,\n  \"token_stats\": {\n    \"prompt_token_len\": 185,\n    \"stdout_token_len\": 54,\n    \"stderr_token_len\": 0,\n    \"aux_output_token_len\": 33,\n    \"token_len\": 272,\n    \"input_token_len\": 185,\n    \"output_token_len\": 87,\n    \"token_source\": \"estimated\"\n  }\n}\n",
+    "code_preview": ""
+  },
+  {
+    "agent": "claudecode",
+    "answer": "{\"type\":\"system\",\"subtype\":\"init\",\"cwd\":\"/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/independent/claudecode\",\"session_id\":\"a7ba3ac1-e1c5-4361-8e10-4fba1471135a\",\"tools\":[\"Task\",\"AskUserQuestion\",\"Bash\",\"CronCreate\",\"CronDelete\",\"CronList\",\"Edit\",\"EnterPlanMode\",\"EnterWorktree\",\"ExitPlanMode\",\"ExitWorktree\",\"Glob\",\"Grep\",\"NotebookEdit\",\"Read\",\"Skill\",\"TaskOutput\",\"TaskStop\",\"TodoWrite\",\"WebFetch\",\"WebSearch\",\"Write\"],\"mcp_servers\":[],\"model\":\"claude-sonnet-4-6\",\"permissionMode\":\"bypassPermissions\",\"slash_commands\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"loop\",\"claude-api\",\"compact\",\"context\",\"cost\",\"heapdump\",\"init\",\"pr-comments\",\"release-notes\",\"review\",\"security-review\",\"insights\"],\"apiKeySource\":\"none\",\"claude_code_version\":\"2.1.90\",\"output_style\":\"default\",\"agents\":[\"general-purpose\",\"statusline-setup\",\"Explore\",\"Plan\"],\"skills\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"loop\",\"claude-api\"],\"plugins\":[],\"uuid\":\"020c1221-b0c3-4cc7-a147-e36b07aac1b9\",\"fast_mode_state\":\"off\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"d2124a3a-ee63-453e-a292-4034a6799188\",\"container\":null,\"model\":\"<synthetic>\",\"role\":\"assistant\",\"stop_reason\":\"stop_sequence\",\"stop_sequence\":\"\",\"type\":\"message\",\"usage\":{\"input_tokens\":0,\"output_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":null,\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":null,\"iterations\":null,\"speed\":null},\"content\":[{\"type\":\"text\",\"text\":\"Failed to authenticate. API Error: 403 No active subscription found for this group\"}],\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"a7ba3ac1-e1c5-4361-8e10-4fba1471135a\",\"uuid\":\"e32f723e-20af-415b-b5e4-1fc11f2f5629\",\"error\":\"authentication_failed\"}\n{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":true,\"duration_ms\":569,\"duration_api_ms\":0,\"num_turns\":1,\"result\":\"Failed to authenticate. API Error: 403 No active subscription found for this group\",\"stop_reason\":\"stop_sequence\",\"session_id\":\"a7ba3ac1-e1c5-4361-8e10-4fba1471135a\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"fast_mode_state\":\"off\",\"uuid\":\"95295014-8b6a-4cb4-a05e-28e8bb15417d\"}",
+    "confidence": 0.0,
+    "approach": "",
+    "artifacts": [],
+    "assumptions": [],
+    "workspace_files": [
+      "command.json",
+      "prompt.txt",
+      "stage_output.json",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "task.md",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "result_files": [
+      "command.json",
+      "prompt.txt",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "code_files": [],
+    "contract_hits": [],
+    "output_contract": [
+      "rsi_overbought_top3.txt"
+    ],
+    "result_preview": "{\n  \"agent\": \"claudecode\",\n  \"kind\": \"claude\",\n  \"command\": [\n    \"claude\",\n    \"-p\",\n    \"--permission-mode\",\n    \"bypassPermissions\",\n    \"--verbose\",\n    \"--model\",\n    \"claude-sonnet-4-6\",\n    \"--output-format\",\n    \"stream-json\",\n    \"--include-partial-messages\",\n    \"--add-dir\",\n    \"/Users/tomato/Documents/potato/project/YFD\",\n    \"/Users/tomato/Documents/potato/project/GenericAgent\",\n    \"-\"\n  ],\n  \"returncode\": 1,\n  \"token_stats\": {\n    \"prompt_token_len\": 191,\n    \"stdout_token_len\": 665,\n    \"stderr_token_len\": 0,\n    \"aux_output_token_len\": 0,\n    \"token_len\": 856,\n    \"input_token",
+    "code_preview": ""
+  },
+  {
+    "agent": "openclaw",
+    "answer": "",
+    "confidence": 0.0,
+    "approach": "",
+    "artifacts": [],
+    "assumptions": [],
+    "workspace_files": [
+      "command.json",
+      "openclaw_prompt.txt",
+      "openclaw_transcript.json",
+      "prompt.txt",
+      "result.json",
+      "rsi_overbought_top3.txt",
+      "solve_rsi_direct.py",
+      "solve_rsi_overbought.py",
+      "solve_rsi_overbought_v2.py",
+      "solve_rsi_tushare.py",
+      "solve_rsi_v2.py",
+      "solve_rsi_v3.py",
+      "stage_output.json",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "task.md",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "result_files": [
+      "command.json",
+      "openclaw_prompt.txt",
+      "openclaw_transcript.json",
+      "prompt.txt",
+      "result.json",
+      "rsi_overbought_top3.txt",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "code_files": [
+      "solve_rsi_direct.py",
+      "solve_rsi_overbought.py",
+      "solve_rsi_overbought_v2.py",
+      "solve_rsi_tushare.py",
+      "solve_rsi_v2.py",
+      "solve_rsi_v3.py"
+    ],
+    "contract_hits": [
+      "rsi_overbought_top3.txt"
+    ],
+    "output_contract": [
+      "rsi_overbought_top3.txt"
+    ],
+    "result_preview": "{\n  \"agent\": \"openclaw\",\n  \"kind\": \"openclaw\",\n  \"command\": [\n    \"openclaw\",\n    \"agent\",\n    \"--local\",\n    \"--agent\",\n    \"main\",\n    \"--json\",\n    \"--timeout\",\n    \"1200\",\n    \"--message\",\n    \"Read the full task prompt from /Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/independent/openclaw/openclaw_prompt.txt. Follow it exactly. Treat that file as the full user message. Return your final answer in the required format from that prompt.\"\n  ],\n  \"returncode\": 0,\n  \"token_stats\": {\n    \"prompt_token_len",
+    "code_preview": "#!/usr/bin/env python3\n\"\"\"\nRSI超买持续时间分析 - 直接API调用版本\n\"\"\"\n\nimport pandas as pd\nimport numpy as np\nimport requests\nfrom datetime import datetime, timedelta\nfrom pathlib import Path\nimport time\nimport json\n\ndef calculate_rsi(prices, period=14):\n    \"\"\"计算RSI指标（Wilder平滑法）\"\"\"\n    deltas = np.diff(prices)\n    gains = np.where(deltas > 0, deltas, 0)\n    losses = np.where(deltas < 0, -deltas, 0)\n    \n    avg_gain = np.mean(gains[:period])\n    avg_loss = np.mean(losses[:period])\n    \n    rsi_values = []\n    \n    if avg_loss == 0:\n        rsi_values.append(100.0)\n    else:\n        rs = avg_gain / avg_loss\n"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "task_id": "task_18_momentum_portfolio",
+  "revision_status": "blocked_after_narrower_revalidation",
+  "required_date": "2024-10-15",
+  "what_changed": [
+    "修正了原结论中过强的表述：不再声称创业板股票宇宙必然不可获得，只说明其在当前环境下未被成功、稳定地验证。",
+    "结合 review/peer 信息，明确拒绝采用 synthetic metrics、2026 日期漂移结果或含 nan 基准指标的候选方案。",
+    "在最终说明中补充了更具体的阻塞边界：问题集中在 date-correct historical bars 无法核验，而非简单地说“完全无数据”。"
+  ],
+  "validated_findings": [
+    "result_dir 中不存在可直接复用的真实行情结果文件。",
+    "peer 中存在合成数值方案，不可采纳。",
+    "peer review 指出曾有深圳市场 `mootdx` 股票列表线索，但未形成可验证且日期正确的最终结果。"
+  ],
+  "output_file": "portfolio_analysis.txt"
+}

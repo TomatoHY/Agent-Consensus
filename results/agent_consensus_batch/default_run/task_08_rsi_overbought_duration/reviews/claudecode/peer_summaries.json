@@ -1,0 +1,136 @@
+[
+  {
+    "agent": "ga",
+    "answer": "Full prompt length: 8194 chars\n[Debug] Current context: 8817 chars, 1 messages.\n\n**LLM Running (Turn 1) ...**\n\nError: HTTPSConnectionPool(host='ccvibe.cc', port=443): Read timed out. (read timeout=5)\n\n[ROUND END]",
+    "confidence": 0.0,
+    "approach": "",
+    "artifacts": [],
+    "assumptions": [],
+    "workspace_files": [
+      "command.json",
+      "prompt.txt",
+      "stage_output.json",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "task.md",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "result_files": [
+      "command.json",
+      "prompt.txt",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "code_files": [],
+    "contract_hits": [],
+    "output_contract": [
+      "rsi_overbought_top3.txt"
+    ],
+    "result_preview": "{\n  \"agent\": \"ga\",\n  \"kind\": \"genericagent\",\n  \"command\": [\n    \"/opt/anaconda3/bin/python3\",\n    \"/Users/tomato/Documents/potato/project/GenericAgent/agentmain.py\",\n    \"--task\",\n    \"consensus_ga_ga_99812\",\n    \"--llm_no\",\n    \"0\"\n  ],\n  \"returncode\": 0,\n  \"token_stats\": {\n    \"prompt_token_len\": 185,\n    \"stdout_token_len\": 54,\n    \"stderr_token_len\": 0,\n    \"aux_output_token_len\": 33,\n    \"token_len\": 272,\n    \"input_token_len\": 185,\n    \"output_token_len\": 87,\n    \"token_source\": \"estimated\"\n  }\n}\n",
+    "code_preview": ""
+  },
+  {
+    "agent": "codex",
+    "answer": "{\"type\":\"thread.started\",\"thread_id\":\"019d8bb3-8434-77d0-bfad-8984873d46ab\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 1/5 (stream disconnected before completion: error sending request for url (https://timicc.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 2/5 (stream disconnected before completion: error sending request for url (https://timicc.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 3/5 (stream disconnected before completion: error sending request for url (https://timicc.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 4/5 (stream disconnected before completion: error sending request for url (https://timicc.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 5/5 (stream disconnected before completion: error sending request for url (https://timicc.com/responses))\"}\n{\"type\":\"error\",\"message\":\"stream disconnected before completion: error sending request for url (https://timicc.com/responses)\"}\n{\"type\":\"turn.failed\",\"error\":{\"message\":\"stream disconnected before completion: error sending request for url (https://timicc.com/responses)\"}}",
+    "confidence": 0.0,
+    "approach": "",
+    "artifacts": [],
+    "assumptions": [],
+    "workspace_files": [
+      "codex_final_message.txt",
+      "command.json",
+      "prompt.txt",
+      "rsi_overbought_top3.txt",
+      "stage_output.json",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "task.md",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "result_files": [
+      "codex_final_message.txt",
+      "command.json",
+      "prompt.txt",
+      "rsi_overbought_top3.txt",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "code_files": [],
+    "contract_hits": [
+      "rsi_overbought_top3.txt"
+    ],
+    "output_contract": [
+      "rsi_overbought_top3.txt"
+    ],
+    "result_preview": "",
+    "code_preview": ""
+  },
+  {
+    "agent": "openclaw",
+    "answer": "",
+    "confidence": 0.0,
+    "approach": "",
+    "artifacts": [],
+    "assumptions": [],
+    "workspace_files": [
+      "command.json",
+      "openclaw_prompt.txt",
+      "openclaw_transcript.json",
+      "prompt.txt",
+      "result.json",
+      "rsi_overbought_top3.txt",
+      "solve_rsi_direct.py",
+      "solve_rsi_overbought.py",
+      "solve_rsi_overbought_v2.py",
+      "solve_rsi_tushare.py",
+      "solve_rsi_v2.py",
+      "solve_rsi_v3.py",
+      "stage_output.json",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "task.md",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "result_files": [
+      "command.json",
+      "openclaw_prompt.txt",
+      "openclaw_transcript.json",
+      "prompt.txt",
+      "result.json",
+      "rsi_overbought_top3.txt",
+      "stderr.txt",
+      "stdout.txt",
+      "summary.json",
+      "trajectory/stderr.txt",
+      "trajectory/stdout.txt"
+    ],
+    "code_files": [
+      "solve_rsi_direct.py",
+      "solve_rsi_overbought.py",
+      "solve_rsi_overbought_v2.py",
+      "solve_rsi_tushare.py",
+      "solve_rsi_v2.py",
+      "solve_rsi_v3.py"
+    ],
+    "contract_hits": [
+      "rsi_overbought_top3.txt"
+    ],
+    "output_contract": [
+      "rsi_overbought_top3.txt"
+    ],
+    "result_preview": "{\n  \"agent\": \"openclaw\",\n  \"kind\": \"openclaw\",\n  \"command\": [\n    \"openclaw\",\n    \"agent\",\n    \"--local\",\n    \"--agent\",\n    \"main\",\n    \"--json\",\n    \"--timeout\",\n    \"1200\",\n    \"--message\",\n    \"Read the full task prompt from /Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_08_rsi_overbought_duration/independent/openclaw/openclaw_prompt.txt. Follow it exactly. Treat that file as the full user message. Return your final answer in the required format from that prompt.\"\n  ],\n  \"returncode\": 0,\n  \"token_stats\": {\n    \"prompt_token_len",
+    "code_preview": "#!/usr/bin/env python3\n\"\"\"\nRSI超买持续时间分析 - 直接API调用版本\n\"\"\"\n\nimport pandas as pd\nimport numpy as np\nimport requests\nfrom datetime import datetime, timedelta\nfrom pathlib import Path\nimport time\nimport json\n\ndef calculate_rsi(prices, period=14):\n    \"\"\"计算RSI指标（Wilder平滑法）\"\"\"\n    deltas = np.diff(prices)\n    gains = np.where(deltas > 0, deltas, 0)\n    losses = np.where(deltas < 0, -deltas, 0)\n    \n    avg_gain = np.mean(gains[:period])\n    avg_loss = np.mean(losses[:period])\n    \n    rsi_values = []\n    \n    if avg_loss == 0:\n        rsi_values.append(100.0)\n    else:\n        rs = avg_gain / avg_loss\n"
+  }
+]

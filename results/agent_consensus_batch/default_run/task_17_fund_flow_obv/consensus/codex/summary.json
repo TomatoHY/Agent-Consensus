@@ -1,0 +1,29 @@
+{
+  "agent": "codex",
+  "kind": "codex",
+  "returncode": 1,
+  "token_stats": {
+    "prompt_token_len": 232,
+    "stdout_token_len": 285,
+    "stderr_token_len": 56,
+    "aux_output_token_len": 0,
+    "token_len": 573,
+    "input_token_len": 232,
+    "output_token_len": 341,
+    "token_source": "estimated"
+  },
+  "answer": "{\"type\":\"thread.started\",\"thread_id\":\"019d908d-4062-75a3-bf73-2193132d5c8a\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 1/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 2/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 3/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 4/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 5/5 (stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses))\"}\n{\"type\":\"error\",\"message\":\"stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses)\"}\n{\"type\":\"turn.failed\",\"error\":{\"message\":\"stream disconnected before completion: error sending request for url (https://cc-vibe.com/responses)\"}}",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {},
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/consensus/codex/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/consensus/codex/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/consensus/codex/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/consensus/codex/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/consensus/codex/stage_output.json",
+    "transcript": ""
+  }
+}

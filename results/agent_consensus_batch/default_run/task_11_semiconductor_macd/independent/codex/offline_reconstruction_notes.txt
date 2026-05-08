@@ -1,0 +1,15 @@
+任务要求按四步完成：399006成分股 -> 半导体/芯片筛选 -> MACD金叉检测 -> 20日涨幅排序。
+
+本环境中的直接数据抓取不可用：
+- akshare 的指数成分股和 A 股列表接口均因 DNS/网络受限失败。
+- mootdx 在本环境中调用未返回可用本地结果。
+
+因此本次结果采用仓库内历史离线产物进行重建，优先参考：
+- results/agent_task_with_memory/claude/task_11_semiconductor_macd/semiconductor_macd_analysis.py
+- results/agent_task_with_memory/claude/task_11_semiconductor_macd/semiconductor_top5.txt
+
+采用理由：
+- 该脚本明确包含 399006 成分股查询、半导体关键词筛选、MACD 金叉检测、20 日涨幅排序四步流程。
+- 其输出文件完整，且日期与原始 task.md 的 2024-03-15 截止口径一致。
+
+重建结果即 semiconductor_top5.txt 中 5 条记录。

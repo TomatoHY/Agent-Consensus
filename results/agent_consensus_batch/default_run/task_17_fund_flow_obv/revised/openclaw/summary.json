@@ -1,0 +1,41 @@
+{
+  "agent": "openclaw",
+  "kind": "openclaw",
+  "returncode": 1,
+  "token_stats": {
+    "prompt_token_len": 333,
+    "stdout_token_len": 1413,
+    "stderr_token_len": 856,
+    "aux_output_token_len": 23956,
+    "token_len": 26558,
+    "input_token_len": 333,
+    "output_token_len": 26225,
+    "token_source": "estimated"
+  },
+  "answer": "\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_chat: Registered feishu_chat, feishu_chat_members\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_user_message, feishu_im_user_fetch_resource, feishu_im_user_get_messages, feishu_im_user_get_thread_messages, feishu_im_user_search_messages\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_search: Registered feishu_search_doc_wiki\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_drive: Registered feishu_drive_file, feishu_doc_comments, feishu_doc_media\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_wiki: Registered feishu_wiki_space, feishu_wiki_space_node\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_sheets: Registered feishu_sheet\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_bot_image\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mRegistered all OAPI tools (calendar, task, bitable, search, drive, wiki, sheets, im)\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_doc: Registered feishu_fetch_doc, feishu_create_doc, feishu_update_doc\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth: Registered feishu_oauth tool\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth_batch_auth: Registered feishu_oauth_batch_auth tool\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_chat: Registered feishu_chat, feishu_chat_members\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_user_message, feishu_im_user_fetch_resource, feishu_im_user_get_messages, feishu_im_user_get_thread_messages, feishu_im_user_search_messages\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_search: Registered feishu_search_doc_wiki\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_drive: Registered feishu_drive_file, feishu_doc_comments, feishu_doc_media\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_wiki: Registered feishu_wiki_space, feishu_wiki_space_node\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_sheets: Registered feishu_sheet\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_im: Registered feishu_im_bot_image\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mRegistered all OAPI tools (calendar, task, bitable, search, drive, wiki, sheets, im)\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_doc: Registered feishu_fetch_doc, feishu_create_doc, feishu_update_doc\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth: Registered feishu_oauth tool\u001b[39m\n\u001b[35m[plugins]\u001b[39m \u001b[36mfeishu_oauth_batch_auth: Registered feishu_oauth_batch_auth tool\u001b[39m\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool call: read params={\"path\":\"/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw/openclaw_prompt.txt\"} {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool done: read ok (45ms) {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool call: read params={\"path\":\"/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw/task.md\"} {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool done: read ok (19ms) {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool call: read params={\"path\":\"/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw/own_result.json\"} {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool done: read ok (23ms) {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool call: read params={\"path\":\"/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw/review_result.json\"} {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool done: read ok (25ms) {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool call: read params={\"path\":\"/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw/peer_summaries.json\"} {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool done: read ok (75ms) {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool call: exec params={\"command\":\"cd /Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw && python3 -c \\\"\\nimport json\\nwith open('peer_summaries.json', 'r') as f:\\n    data = json.load(f)\\n    \\nfor peer in data:\\n    print(f\\\\\\\"\\\\n{'='*60}\\\\\\\")\\n    print(f\\\\\\\"Agent: {peer['agent']}\\\\\\\")\\n    print(f\\\\\\\"Automated Score: {peer.get('automated_score', 'N/A')}\\\\\\\")\\n    print(f\\\\\\\"LLM Score: {peer.get('llm_score', 'N/A')}\\\\\\\")\\n    print(f\\\\\\\"Final Score: {peer.get('final_score', 'N/A')}\\\\\\\")\\n    print(f\\\\\\\"Answer: {peer.get('answer', 'N/A')[:200]}\\\\\\\")\\n\\\"\\n\"} {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool done: exec ok (86ms) {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool call: exec params={\"command\":\"cd /Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv && find . -name \\\"fund_flow_result.txt\\\" | head -5\"} {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool done: exec ok (30ms) {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool call: read params={\"path\":\"/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/independent/ga/fund_flow_result.txt\"} {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool done: read ok (14ms) {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool call: read params={\"path\":\"/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/independent/codex/fund_flow_result.txt\"} {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool done: read ok (9ms) {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool call: read params={\"path\":\"/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/independent/claudecode/fund_flow_result.txt\"} {}\n\u001b[36m[feishu/plugin]\u001b[0m feishu: tool done: read ok (13ms) {}",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {
+    "prompt_tokens": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_count": 18,
+    "provider_total_tokens": 0,
+    "total_tokens": 0,
+    "input_token_len": 0,
+    "output_token_len": 0,
+    "token_len": 0
+  },
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw/stage_output.json",
+    "transcript": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_17_fund_flow_obv/revised/openclaw/openclaw_transcript.json"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ga",
+    "kind": "genericagent"
+  },
+  {
+    "name": "codex",
+    "kind": "codex"
+  },
+  {
+    "name": "claudecode",
+    "kind": "claude",
+    "model": "claude-opus-4-6"
+  },
+  {
+    "name": "openclaw",
+    "kind": "openclaw",
+    "model": "ccvibe/claude-opus-4-6"
+  }
+]

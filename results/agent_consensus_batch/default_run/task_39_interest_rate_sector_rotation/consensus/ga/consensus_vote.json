@@ -1,0 +1,12 @@
+{
+  "preferred_agent": "ga",
+  "confidence": 0.0,
+  "reasons": [
+    "只有ga一个agent参与，无其他方案可比较",
+    "ga执行失败，confidence为0.0",
+    "缺少期望输出文件rate_strategy.txt",
+    "未满足任务的输出契约要求",
+    "trajectory显示执行过程产生了大量输出(5.8MB)但未生成最终结果文件"
+  ],
+  "merge_notes": "无法进行方案合并。ga agent执行失败，未产生有效的利率策略分析结果。建议重新执行任务或检查agent配置。"
+}

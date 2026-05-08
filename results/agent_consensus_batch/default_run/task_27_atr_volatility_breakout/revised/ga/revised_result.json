@@ -1,0 +1,10 @@
+{
+  "answer": "筛选出0只符合ATR波动率扩张突破条件的创业板股票",
+  "confidence": 0.95,
+  "what_changed": "1. 数据源从mootdx切换到akshare以获取2024-09-09历史数据；2. 涨幅计算修正为(收盘-前收)/前收；3. 保持Wilder平滑法计算ATR和5个筛选条件不变",
+  "final_method": "使用akshare获取创业板股票2024-09-09及之前的历史数据，计算14日ATR（Wilder平滑法），筛选ATR>60日80分位数、收盘突破20日高、成交量>均量2倍、收阳、涨幅>3%的股票",
+  "preferred_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_27_atr_volatility_breakout/revised/ga/atr_breakout.txt",
+  "artifacts": [
+    "atr_breakout.txt"
+  ]
+}

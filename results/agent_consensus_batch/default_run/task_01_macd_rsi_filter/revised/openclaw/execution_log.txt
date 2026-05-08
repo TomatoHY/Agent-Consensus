@@ -1,0 +1,51 @@
+============================================================
+ChiNext Stock Screening - REVISED VERSION
+============================================================
+
+Analysis period: 20260304 to 20260331
+Result directory: /Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_01_macd_rsi_filter/revised/openclaw
+============================================================
+
+Checking available data libraries...
+✓ akshare available
+✓ efinance available
+✓ tushare available
+
+Using akshare for data retrieval
+============================================================
+  0%|          | 0/16 [00:00<?, ?it/s]  6%|▋         | 1/16 [00:00<00:03,  4.63it/s] 12%|█▎        | 2/16 [00:00<00:02,  5.71it/s] 19%|█▉        | 3/16 [00:00<00:02,  6.16it/s] 25%|██▌       | 4/16 [00:00<00:01,  6.17it/s] 31%|███▏      | 5/16 [00:00<00:01,  6.53it/s] 38%|███▊      | 6/16 [00:00<00:01,  6.50it/s] 44%|████▍     | 7/16 [00:01<00:01,  6.79it/s] 50%|█████     | 8/16 [00:01<00:01,  6.71it/s] 56%|█████▋    | 9/16 [00:01<00:01,  6.22it/s] 62%|██████▎   | 10/16 [00:01<00:01,  5.74it/s] 69%|██████▉   | 11/16 [00:01<00:00,  5.97it/s] 75%|███████▌  | 12/16 [00:01<00:00,  6.11it/s] 81%|████████▏ | 13/16 [00:02<00:00,  6.34it/s] 88%|████████▊ | 14/16 [00:02<00:00,  6.47it/s] 94%|█████████▍| 15/16 [00:02<00:00,  6.63it/s]100%|██████████| 16/16 [00:02<00:00,  6.90it/s]                                               Found 938 ChiNext stocks via akshare
+
+Screening 938 stocks...
+============================================================
+Progress: 50/938 stocks analyzed...
+Progress: 100/938 stocks analyzed...
+Progress: 150/938 stocks analyzed...
+Progress: 200/938 stocks analyzed...
+Progress: 250/938 stocks analyzed...
+Progress: 300/938 stocks analyzed...
+Progress: 350/938 stocks analyzed...
+Progress: 400/938 stocks analyzed...
+Progress: 450/938 stocks analyzed...
+Progress: 500/938 stocks analyzed...
+Progress: 550/938 stocks analyzed...
+Progress: 600/938 stocks analyzed...
+Progress: 650/938 stocks analyzed...
+✓ 300733: All conditions met
+  MACD: ['2026-03-20']
+  RSI: ['2026-03-23']
+  Volume: 2 days
+  MA: ['2026-03-23']
+Progress: 700/938 stocks analyzed...
+Progress: 750/938 stocks analyzed...
+Progress: 800/938 stocks analyzed...
+Progress: 850/938 stocks analyzed...
+Progress: 900/938 stocks analyzed...
+
+============================================================
+Screening complete. Found 1 qualified stocks.
+============================================================
+
+Results written to result.txt:
+  300733
+
+Detailed analysis written to analysis_details.txt

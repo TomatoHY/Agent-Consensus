@@ -1,0 +1,3 @@
+{
+  "raw_output": "Full prompt length: 8519 chars\n[Debug] Current context: 9144 chars, 1 messages.\n\n**LLM Running (Turn 1) ...**\n\nError: HTTPSConnectionPool(host='ccvibe.cc', port=443): Max retries exceeded with url: /v1/messages (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))\n\n[ROUND END]"
+}

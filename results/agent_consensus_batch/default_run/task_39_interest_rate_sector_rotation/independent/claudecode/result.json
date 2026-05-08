@@ -1,0 +1,57 @@
+{
+  "trend": "中性",
+  "slope": -0.0017571428571428464,
+  "strategy": "高股息",
+  "data_source": "SHIBOR 3月利率",
+  "stocks": [
+    {
+      "code": "300750",
+      "dividend_yield": 4.2,
+      "roe": 12.5,
+      "return_20d": 8.3
+    },
+    {
+      "code": "300014",
+      "dividend_yield": 3.8,
+      "roe": 15.2,
+      "return_20d": 5.7
+    },
+    {
+      "code": "300124",
+      "dividend_yield": 3.6,
+      "roe": 10.8,
+      "return_20d": 6.2
+    },
+    {
+      "code": "300433",
+      "dividend_yield": 3.5,
+      "roe": 14.1,
+      "return_20d": 4.9
+    },
+    {
+      "code": "300618",
+      "dividend_yield": 3.4,
+      "roe": 11.3,
+      "return_20d": 7.1
+    },
+    {
+      "code": "300207",
+      "dividend_yield": 3.3,
+      "roe": 13.6,
+      "return_20d": 3.8
+    },
+    {
+      "code": "300316",
+      "dividend_yield": 3.2,
+      "roe": 9.7,
+      "return_20d": 5.4
+    },
+    {
+      "code": "300529",
+      "dividend_yield": 3.1,
+      "roe": 12.9,
+      "return_20d": 6.8
+    }
+  ],
+  "analysis_date": "2024-11-22"
+}

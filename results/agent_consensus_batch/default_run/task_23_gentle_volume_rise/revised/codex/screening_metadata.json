@@ -1,0 +1,36 @@
+{
+  "screening_date": "2024-05-08",
+  "universe_definition": "创业板 A 股代码前缀 300 或 301",
+  "window_definition": {
+    "target_window": "截至 2024-05-08 的最近 10 个交易日",
+    "extra_history_needed": "额外取前 1 个交易日，得到 11 个收盘点，才能计算 10 个逐日涨幅"
+  },
+  "filters": {
+    "daily_return": "连续 10 天逐日涨幅都在 0.5%-4% 之间",
+    "volume_regression": "对 10 日成交量序列使用 numpy.polyfit 做线性回归，要求 slope > 0 且 R^2 > 0.6",
+    "cumulative_return": "10 日累计涨幅在 8%-20% 之间",
+    "avg_turnover": "10 日平均换手率在 3%-8% 之间"
+  },
+  "status": "no_live_data",
+  "data_attempts": [
+    {
+      "source": "akshare.stock_info_a_code_name",
+      "status": "failed",
+      "error_type": "ConnectionError",
+      "error": "HTTPSConnectionPool(host='query.sse.com.cn', port=443): Max retries exceeded with url: /sseQuery/commonQuery.do?STOCK_TYPE=1&REG_PROVINCE=&CSRC_CODE=&STOCK_CODE=&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_GP_L&COMPANY_STATUS=2%2C4%2C5%2C7%2C8&type=inParams&isPagination=true&pageHelp.cacheSize=1&pageHelp.beginPage=1&pageHelp.pageSize=10000&pageHelp.pageNo=1&pageHelp.endPage=1 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x15b26dfd0>: Failed to resolve 'query.sse.com.cn' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "source": "mootdx.quotes.Quotes.factory",
+      "status": "available_but_not_executed",
+      "reason": "此前同环境调用表现为阻塞/不可达，未取得可复用本地历史数据。"
+    }
+  ],
+  "notes": [
+    "本次修订吸收评审意见，方法上不再只限 300 前缀，并明确使用额外前序交易日来覆盖完整 10 次日涨幅判断。",
+    "当前环境无法解析 akshare 所需域名，mootdx 实时接口同样不可用，因此无法完成真实市场截面的重新筛选。"
+  ],
+  "libraries": {
+    "akshare": true,
+    "mootdx": true
+  }
+}

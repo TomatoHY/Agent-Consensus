@@ -1,0 +1,29 @@
+{
+  "agent": "ga",
+  "kind": "genericagent",
+  "returncode": 0,
+  "token_stats": {
+    "prompt_token_len": 260,
+    "stdout_token_len": 102,
+    "stderr_token_len": 0,
+    "aux_output_token_len": 82,
+    "token_len": 444,
+    "input_token_len": 260,
+    "output_token_len": 184,
+    "token_source": "estimated"
+  },
+  "answer": "Full prompt length: 8495 chars\n[Debug] Current context: 9120 chars, 1 messages.\n\n**LLM Running (Turn 1) ...**\n\nError: HTTPSConnectionPool(host='ccvibe.cc', port=443): Max retries exceeded with url: /v1/messages (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1051d9550>: Failed to resolve 'ccvibe.cc' ([Errno 8] nodename nor servname provided, or not known)\"))\n\n[ROUND END]",
+  "confidence": 0.0,
+  "approach": "",
+  "artifacts": [],
+  "assumptions": [],
+  "openclaw_transcript_usage": {},
+  "log_files": {
+    "prompt": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_33_sector_leadership/reviews/ga/prompt.txt",
+    "stdout": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_33_sector_leadership/reviews/ga/stdout.txt",
+    "stderr": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_33_sector_leadership/reviews/ga/stderr.txt",
+    "command": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_33_sector_leadership/reviews/ga/command.json",
+    "stage_output": "/Users/tomato/Documents/potato/project/YFD/yfd-agent-consensus/results/agent_consensus_batch/default_run/task_33_sector_leadership/reviews/ga/stage_output.json",
+    "transcript": ""
+  }
+}
